@@ -2,7 +2,7 @@
 - 👀 I’m interested in cyber security and web development. 
 - 🌱 I’m currently learning python, database, and networking.
 - 💞️ I’m looking to collaborate on a ...
-- 📫 How to reach me? Contact me via: axosis.social357@gmail.com.
+- 📫 How to reach me? Contact me via: subash.social357@gmail.com.
 - 😄 Pronouns: He/Him.
 - ⚡ Fun fact: It takes 4 seconds for a silence to become awkward.
 
