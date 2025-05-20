@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Subash Lama Tamang a student with many thoughts and dreams.
 - 👀 I’m interested in cyber security and web development. 
-- 🌱 I’m currently learning python, database, and networking.
+- 🌱 I’m currently learning web development.
 - 💞️ I’m looking to collaborate on a ...
 - 📫 How to reach me? Contact me via: subash.social357@gmail.com.
 - 😄 Pronouns: He/Him.
