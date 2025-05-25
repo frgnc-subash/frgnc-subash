@@ -1,6 +1,6 @@
 ### <!-- This markdown separator helps create some vertical space -->
-<h2> Hi, I'm Subash | Undergraduate | Aspiring Full-Stack Developer.</h2> <br>
-<div style="text-align: right;">
+<h2> Hi, I'm Subash | Undergraduate | Aspiring Full-Stack Developer.</h2>
+<br><div style="text-align: right;">
   <img src="https://github-readme-stats.vercel.app/api?username=frgnc-subash&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" style="display: inline-block; margin-right: 10px;"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=frgnc-subash&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" style="display: inline-block;" />
 </div>
