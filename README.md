@@ -4,7 +4,7 @@
 
 <br clear="both">
 
-<div align="left">
+<div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=frgnc-subash&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=false&disable_animations=false&theme=tokyonight&locale=en&hide_border=false&custom_title=Github%20Stat" height="150" alt="stats graph"  />
   <img src="https://streak-stats.demolab.com?user=frgnc-subash&locale=en&mode=weekly&theme=aura&hide_border=false&border_radius=4&date_format=j%20M%5B%20Y%5D" height="150" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=frgnc-subash&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=4&theme=dark&hide_border=false&custom_title=What%20I'm%20Most%20Familiar%20with..." height="150" alt="languages graph"  />
@@ -14,7 +14,7 @@
 
 <br clear="both">
 
-<div align="left">
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
@@ -36,7 +36,7 @@
 
 <br clear="both">
 
-<div align="left">
+<div align="center">
   <a href="https://www.instagram.com/frgnc.subash" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
   </a>
@@ -53,7 +53,9 @@
 
 ###
 
-<img align="right" height="150" src="https://media.giphy.com/media/3fBVaRM2c79TtXbyi6/giphy.gif?cid=ecf05e47nl06evhc4t0bpahzy2ogmoy2tqvdoboyuis9pd26&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
+<div align="center">
+  <img height="150" src="https://media.giphy.com/media/3fBVaRM2c79TtXbyi6/giphy.gif?cid=ecf05e47nl06evhc4t0bpahzy2ogmoy2tqvdoboyuis9pd26&ep=v1_gifs_search&rid=giphy.gif&ct=g"  />
+</div>
 
 ###
 
