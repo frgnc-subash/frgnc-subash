@@ -6,7 +6,7 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=frgnc-subash&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=false&disable_animations=false&theme=dark&locale=en&hide_border=true&custom_title=Github%20Stat" height="150" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=frgnc-subash&locale=en&mode=weekly&theme=tokyonight&hide_border=true&border_radius=4&date_format=j%20M%5B%20Y%5D" height="150" alt="streak graph"  />
+  <img src="https://streak-stats.demolab.com?user=frgnc-subash&locale=en&mode=weekly&theme=dark&hide_border=true&border_radius=4&date_format=j%20M%5B%20Y%5D" height="150" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=frgnc-subash&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=4&theme=chartreuse-dark&hide_border=true&custom_title=What%20I'm%20Most%20Familiar%20with..." height="150" alt="languages graph"  />
 </div>
 
