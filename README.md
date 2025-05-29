@@ -7,10 +7,10 @@
 <br clear="both">
 
 <div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=frgnc-subash&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=true&custom_title=My%20GitHub%20Stats&card_width=320" height="150" alt="My GitHub Stats"  />
+  <img src="https://streak-stats.demolab.com?user=frgnc-subash&locale=en&mode=daily&theme=radical&hide_border=true&border_radius=5&card_width=320" height="150" alt="GitHub Streak"  />
+  <br clear="both">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=frgnc-subash&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=true" height="150" alt="Top Languages"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=frgnc-subash&theme=monokai&hide_border=true" height="150" alt="GitHub Activity Graph"  />
-  <img src="https://github-readme-stats.vercel.app/api?username=frgnc-subash&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=true&custom_title=My%20GitHub%20Stats" height="150" alt="My GitHub Stats"  />
-  <img src="https://streak-stats.demolab.com?user=frgnc-subash&locale=en&mode=daily&theme=radical&hide_border=true&border_radius=5" height="150" alt="GitHub Streak"  />
 </div>
 
 ###
@@ -55,9 +55,7 @@
   <a href="https://www.instagram.com/frgnc.subash" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Instagram logo"  />
   </a>
-  <!-- For Discord, using a User ID is most reliable if you have it: https://discord.com/users/YOUR_USER_ID -->
-  <!-- Otherwise, this username link might work for some, or a server invite is another option -->
-  <a href="https://discord.com/users/incon_axosis" target="_blank" rel="noopener noreferrer">
+  <a href="https://discord.com/users/incon_axosis" target="_blank" rel="noopener noreferrer"> <!-- Or use YOUR_USER_ID for more reliability -->
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Discord logo"  />
   </a>
   <a href="mailto:axosis.social357@gmail.com" target="_blank" rel="noopener noreferrer">
