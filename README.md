@@ -72,9 +72,9 @@
 
 ###
 
-<div align="center">
+<!-- <div align="center">
   <img height="150" src="https://media.giphy.com/media/3fBVaRM2c79TtXbyi6/giphy.gif?cid=ecf05e47g1vg8s2ela3pvtxl8wlw6et3amek0xd51cutrurr&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Coding GIF" />
-</div>
+</div> -->
 
 ###
 
