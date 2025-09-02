@@ -3,7 +3,7 @@
 ###
 <h3 align="left">Retro-themed Portfolio</h3>
 
-<p align="center">
+<p align="left">
   <a href="https://frgnc-subash.vercel.app/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/🌐%20Visit-Portfolio-ff5555?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Link"/>
   </a>
