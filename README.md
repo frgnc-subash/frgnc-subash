@@ -1,9 +1,7 @@
 <!-- Animated Intro -->
-<p align="center">
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2000&pause=1500&center=true&vCenter=true&repeat=true&width=600&height=60&color=00FFD1&background=00000000&lines=Hi%2C+I'm+Subash;Aspiring+Fullstack+Developer)](https://git.io/typing-svg)
-</p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2000&pause=1500&center=true&vCenter=true&repeat=true&width=600&height=60&color=00FFD1&background=00000000&lines=Hi%2C+I'm+Subash;Aspiring+Fullstack+Developer)](https://git.io/typing-svg)
 
----
+
 
 <h3 align="center">Retro-themed Portfolio</h3>
 
@@ -13,7 +11,7 @@
   </a>
 </p>
 
----
+
 
 <h3 align="center">GitHub Stats</h3>
 
@@ -22,7 +20,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=frgnc-subash&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=merko&hide_border=true" height="150" alt="Top Languages" />
 </p>
 
----
+
 
 <h3 align="center">Languages & Tools</h3>
 
@@ -37,7 +35,7 @@
   <a href="https://tailwindcss.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="40" alt="Tailwind CSS"/></a>
 </p>
 
----
+
 
 <h3 align="center">Connect with Me</h3>
 
