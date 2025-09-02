@@ -1,7 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2000&pause=1500&center=true&vCenter=true&repeat=true&width=600&height=60&color=00FFD1&background=00000000&lines=Hi%2C+I'm+Subash;Aspiring+Fullstack+Developer)](https://git.io/typing-svg)
 
 ###
-<h3 align="center">Retro-themed Portfolio</h3>
+<h3 align="left">Retro-themed Portfolio</h3>
 
 <p align="center">
   <a href="https://frgnc-subash.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -18,7 +18,7 @@
 
 ###
 
-<h3 align="center">Languages and Tools I Use:</h3>
+<h3 align="center">Languages and Tool I'm familiar with...</h3>
 
 <div align="center">
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
@@ -62,7 +62,7 @@
   <a href="https://www.instagram.com/frgnc.subash" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Instagram logo"  />
   </a>
-  <!-- For Discord, a User ID link (https://discord.com/users/YOUR_USER_ID) or server invite is often more reliable -->
+  
   <a href="https://discord.com/users/incon_axosis" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Discord logo"  />
   </a>
