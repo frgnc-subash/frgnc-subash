@@ -1,9 +1,13 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2000&pause=1500&center=true&vCenter=true&repeat=true&width=600&height=60&color=00FFD1&background=00000000&lines=Hi%2C+I'm+Subash;Aspiring+Fullstack+Developer)](https://git.io/typing-svg)
 
 ###
+<h3 align="center">🌌 Retro-themed Portfolio</h3>
 
-<h3 align = "center">Preview my personal (retro-themed) portfolio <br><a href="https://frgnc-subash.vercel.app/" target="_blank" rel="noopener noreferrer">here</a></h3>
-
+<p align="center">
+  <a href="https://frgnc-subash.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/🌐%20Visit-Portfolio-ff5555?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Link"/>
+  </a>
+</p>
 <br clear="both">
 
 <div align="center">
