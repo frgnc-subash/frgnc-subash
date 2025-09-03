@@ -16,7 +16,7 @@
 <h3 align="center">GitHub Stats</h3>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=frgnc-subash&locale=en&mode=daily&theme=radical&hide_border=true&border_radius=5" height="150" alt="GitHub Streak" />
+<!--   <img src="https://streak-stats.demolab.com?user=frgnc-subash&locale=en&mode=daily&theme=radical&hide_border=true&border_radius=5" height="150" alt="GitHub Streak" /> -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=frgnc-subash&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=merko&hide_border=true" height="150" alt="Top Languages" />
 </p>
 
