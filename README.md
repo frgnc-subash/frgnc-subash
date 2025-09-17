@@ -13,7 +13,15 @@
   <img src="https://streak-stats.demolab.com?user=frgnc-subash&locale=en&mode=daily&theme=radical&hide_border=true&border_radius=5" height="150" alt="GitHub Streak"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=frgnc-subash&layout=compact&langs_count=5&theme=radical&hide_border=true" height="150" alt="Top Languages"/>
 </p>
+```
 
+································
+:╦ ╦┬  ╦┌┬┐  ╔═╗┬ ┬┌┐ ┌─┐┌─┐┬ ┬:
+:╠═╣│  ║│││  ╚═╗│ │├┴┐├─┤└─┐├─┤:
+:╩ ╩┴  ╩┴ ┴  ╚═╝└─┘└─┘┴ ┴└─┘┴ ┴:
+································
+
+```
 
 <p align="center">
   <a href="https://www.instagram.com/frgnc.subash">
