@@ -31,8 +31,6 @@
 </p>
 
 <p align="center">
-  <sub><sup><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" width="20" height="20"/></sup></sub>
   <img src="https://raw.githubusercontent.com/frgnc-subash/frgnc-subash/output/snake.svg" alt="Snake animation"/>
-  <sub><sup><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" width="20" height="20"/></sup></sub>
 </p>
 
