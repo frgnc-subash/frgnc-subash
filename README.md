@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Pixel+Operator&size=32&duration=2000&pause=1500&width=600&lines=Hi%2C+I'm+Subash;I+do;Fullstack+Development)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Pixel+Operator&size=32&duration=2000&pause=1500&width=600&lines=Hi%2C+I'm+Subash;Aspiring;Fullstack+Developer)](https://git.io/typing-svg)
 
 
 <p align="center">
@@ -13,13 +13,7 @@
   <img src="https://streak-stats.demolab.com?user=frgnc-subash&locale=en&mode=daily&theme=radical&hide_border=true&border_radius=5" height="150" alt="GitHub Streak"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=frgnc-subash&layout=compact&langs_count=5&theme=radical&hide_border=true" height="150" alt="Top Languages"/>
 </p>
-```
-································
-:╦ ╦┬  ╦┌┬┐  ╔═╗┬ ┬┌┐ ┌─┐┌─┐┬ ┬:
-:╠═╣│  ║│││  ╚═╗│ │├┴┐├─┤└─┐├─┤:
-:╩ ╩┴  ╩┴ ┴  ╚═╝└─┘└─┘┴ ┴└─┘┴ ┴:
-································
-```
+
 
 <p align="center">
   <a href="https://www.instagram.com/frgnc.subash">
