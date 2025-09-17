@@ -3,7 +3,7 @@
 
 
 
-<h3 align="center">Retro-themed Portfolio</h3>
+
 
 <p align="center">
   <a href="https://frgnc-subash.vercel.app/" target="_blank" rel="noopener noreferrer">
