@@ -35,7 +35,7 @@
   </a>
   <a href="https://www.python.org/">
     <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python"/>
-  </a>
+  </a> <br>
   <a href="https://nodejs.org/">
     <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=node.js&logoColor=339933" alt="Node.js"/>
   </a>
