@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2000&pause=1500&center=true&vCenter=true&repeat=true&width=600&height=60&color=00FFD1&background=00000000&lines=Hi%2C+I'm+Subash;I do;Fullstack+Development" alt="Typing SVG"/>
-</p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Pixel+Operator&size=32&duration=2000&pause=1500&width=600&lines=Hi%2C+I'm+Subash;I+do;Fullstack+Development)](https://git.io/typing-svg)
 
 
 <p align="center">
