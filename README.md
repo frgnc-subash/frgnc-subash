@@ -2,6 +2,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2000&pause=1500&center=true&vCenter=true&repeat=true&width=600&height=60&color=00FFD1&background=00000000&lines=Hi%2C+I'm+Subash;I do;Fullstack+Development" alt="Typing SVG"/>
 </p>
 
+
 <p align="center">
   <sub><sup><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25"/></sup></sub>
   <a href="https://frgnc-subash.vercel.app/" target="_blank">
