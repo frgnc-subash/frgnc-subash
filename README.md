@@ -6,20 +6,24 @@
   </a>
 </p>
 
-<pre align="center">-=< 𝓯𝓻𝓰𝓷𝓬-𝓼𝓾𝓫𝓪𝓼𝓱 >=- </pre>
+<p align="center">
+  <code>-=< 𝓯𝓻𝓰𝓷𝓬-𝓼𝓾𝓫𝓪𝓼𝓱 >=-
+  <br>
+  <b>An Undergrad | UI/UX Designer | Linux Enthusiast </b>
+    </code>
+</p>
 
 <p align="center">
-  <sub><sup><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25"/></sup></sub>
+  <sub><sup><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="24" height="24"/></sup></sub>
   <a href="https://frgnc-subash.vercel.app/" target="_blank" style="text-decoration:none">
     <img src="https://img.shields.io/badge/portfolio-000000?style=for-the-badge&logoColor=D9E0EE" alt="portfolio">
   </a>
-  <sub><sup><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25"/></sup></sub>
+  <sub><sup><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="24" height="24"/></sup></sub>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=frgnc-subash&layout=compact&langs_count=6&theme=radical&title_color=00bfbf&text_color=ffffff&bg_color=000000&hide_border=true" height="150" alt="Top Languages"/>
-</p>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=frgnc-subash&show_icons=true&theme=radical&title_color=00bfbf&text_color=ffffff&bg_color=000000&hide_border=true" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=frgnc-subash&layout=compact&langs_count=6&theme=radical&title_color=00bfbf&text_color=ffffff&bg_color=000000&hide_border=true" height="150" />
 </p>
 
 <p align="center"> If you have something interesting to share, feel free to reach out to me.</p>
