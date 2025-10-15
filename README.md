@@ -8,7 +8,7 @@
 
 <p align="center">
   <code>-=< 𝓯𝓻𝓰𝓷𝓬-𝓼𝓾𝓫𝓪𝓼𝓱 >=-</code>
-  <br>
+  <br> <br>
   <b>An Undergrad | UI/UX Designer | Linux Enthusiast</b>
 </p>
 
