@@ -1,9 +1,34 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Pixel+Operator&size=32&duration=2000&pause=1500&width=600&lines=Hi%2C+I'm+Subash;Aspiring+Fullstack+Developer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=sup;)](https://git.io/typing-svg)
 
+<pre align='center'>
+
+
+    ██████                                                                      
+   ███░░███                                                                     
+  ░███ ░░░  ████████   ███████ ████████    ██████              █████  █████ ████
+ ███████   ░░███░░███ ███░░███░░███░░███  ███░░███ ██████████ ███░░  ░░███ ░███ 
+░░░███░     ░███ ░░░ ░███ ░███ ░███ ░███ ░███ ░░░ ░░░░░░░░░░ ░░█████  ░███ ░███ 
+  ░███      ░███     ░███ ░███ ░███ ░███ ░███  ███            ░░░░███ ░███ ░███ 
+  █████     █████    ░░███████ ████ █████░░██████             ██████  ░░████████
+ ░░░░░     ░░░░░      ░░░░░███░░░░ ░░░░░  ░░░░░░             ░░░░░░    ░░░░░░░░ 
+                      ███ ░███                                                  
+                     ░░██████                                                   
+                      ░░░░░░                                                    
+ █████                       █████                                              
+░░███                       ░░███                                               
+ ░███████   ██████    █████  ░███████                                           
+ ░███░░███ ░░░░░███  ███░░   ░███░░███                                          
+ ░███ ░███  ███████ ░░█████  ░███ ░███                                          
+ ░███ ░███ ███░░███  ░░░░███ ░███ ░███                                          
+ ████████ ░░████████ ██████  ████ █████                                         
+░░░░░░░░   ░░░░░░░░ ░░░░░░  ░░░░ ░░░░░                                          
+
+
+</pre>
 
 <p align="center">
   <sub><sup><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25"/></sup></sub>
-  <a href="https://frgnc-subash.vercel.app/" target="_blank">
+  <a href="https://frgnc-subash.vercel.app/" target="_blank" >
     <img src="https://img.shields.io/badge/portfolio-000000?style=for-the-badge&logoColor=D9E0EE" alt="portfoliokinda">
   </a>
   <sub><sup><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="25" height="25"/></sup></sub>
@@ -13,7 +38,6 @@
 <!--   <img src="https://streak-stats.demolab.com?user=frgnc-subash&locale=en&mode=daily&theme=radical&hide_border=true&border_radius=5" height="150" alt="GitHub Streak"/> -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=frgnc-subash&layout=compact&langs_count=5&theme=radical&hide_border=true" height="150" alt="Top Languages"/>
 </p>
-
 
 <p align="center" style="text-decoration: none;">
   <a href="https://www.instagram.com/frgnc.subash" style="text-decoration: none;">
@@ -30,8 +54,6 @@
   </a>
 </p>
 
-
-<p align="center">
+<!-- <p align="center">
   <img src="https://raw.githubusercontent.com/frgnc-subash/frgnc-subash/output/snake.svg" alt="Snake animation"/>
-</p>
-
+</p> -->
