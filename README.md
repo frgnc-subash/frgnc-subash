@@ -21,7 +21,6 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=frgnc-subash&theme=radical&background=000000&ring=00bfbf&fire=00bfbf&currStreakLabel=00bfbf&hide_border=true" height="150" alt="GitHub Streak"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=frgnc-subash&layout=compact&langs_count=6&theme=radical&title_color=00bfbf&text_color=ffffff&bg_color=000000&hide_border=true" height="150" />
 </p>
 
