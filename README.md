@@ -14,7 +14,7 @@
 
 <p align="center">
   <sub><sup><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="24" height="24"/></sup></sub>
-  <a href="https://subashlamatamang.com.np" target="_blank" style="text-decoration:none">
+  <a href="https://www.subashlamatamang.com.np" target="_blank" style="text-decoration:none">
     <img src="https://img.shields.io/badge/portfolio-000000?style=for-the-badge&logoColor=D9E0EE" alt="portfolio">
   </a>
   <sub><sup><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="24" height="24"/></sup></sub>
