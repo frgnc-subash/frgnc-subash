@@ -21,9 +21,8 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats-git-masterorg-github-readme-stats-team.vercel.app/api/top-langs/?username=frgnc-subash&layout=compact&bg_color=000000&title_color=ffffff&text_color=ffffff&hide_border=true" />
+  <img src="https://github-readme-stats-git-masterorg-github-readme-stats-team.vercel.app/api/top-langs/?username=frgnc-subash&layout=compact&langs_count=6&bg_color=000000&title_color=ffffff&text_color=ffffff&hide_border=true" />
 </p>
-
 
 <p align="center"> If you have something interesting to share, feel free to reach out to me.</p>
 
