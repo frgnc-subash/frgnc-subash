@@ -2,7 +2,7 @@ name: Update Language Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs every night at midnight UTC
+    - cron: '0 0 * * *'
   workflow_dispatch:
   push:
     branches:
@@ -26,24 +26,20 @@ jobs:
           cache-dependency-glob: "statsgen/uv.lock"
 
       - name: Run Stats Generator
-        working-directory: ./statsgen  # 👈 Fixes the "No such file" error
+        working-directory: ./statsgen
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        # "uv run" automatically installs dependencies from pyproject.toml and runs the script
         run: uv run main.py
 
-      - name: Move and Commit
+      - name: Commit and Push
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # 1. Move the image from statsgen folder to root (so your README link works)
-          mv statsgen/languages.svg ./languages.svg
+          # 1. Add the file from inside the statsgen folder
+          git add statsgen/languages.svg
           
-          # 2. Stage the file
-          git add languages.svg
-          
-          # 3. Commit only if changed
+          # 2. Commit only if changed
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else

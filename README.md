@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=frgnc-subash&layout=compact&langs_count=6&theme=radical&title_color=00bfbf&text_color=ffffff&bg_color=000000&hide_border=true" height="150" />
+  <img src="./statsgen/languages.svg" alt="Languages" />
 </p>
 
 <p align="center"> If you have something interesting to share, feel free to reach out to me.</p>
