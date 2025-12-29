@@ -1,1 +1,2 @@
-displays your github repo language stats.
+displays github repos language stats.`
+

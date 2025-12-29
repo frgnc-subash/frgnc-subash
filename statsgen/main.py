@@ -1,31 +1,47 @@
-import requests # type: ignore
+import requests  
 import os
 import sys
 from datetime import datetime, timezone
 import concurrent.futures
-from dotenv import load_dotenv  # type: ignore # Added to load .env file
+from dotenv import load_dotenv  
 
-# --- CONFIGURATION ---
-load_dotenv()  # This reads GH_TOKEN from your .env file
+
+load_dotenv()
 USERNAME = "frgnc-subash"
 TOKEN = os.getenv("GH_TOKEN")
 LANG_COUNT = 8
 
-# Official Colors
 LANG_COLORS = {
-    "Python": "#3572A5", "JavaScript": "#f1e05a", "TypeScript": "#2b7489",
-    "HTML": "#e34c26", "CSS": "#563d7c", "Java": "#b07219", "C++": "#f34b7d",
-    "C": "#555555", "C#": "#178600", "Go": "#00ADD8", "Rust": "#dea584",
-    "PHP": "#4F5D95", "Ruby": "#701516", "Swift": "#ffac45", "Kotlin": "#F18E33",
-    "Dart": "#00B4AB", "Shell": "#89e051", "Vue": "#2c3e50"
+    "Python": "#3776AB",
+    "JavaScript": "#F7DF1E",
+    "TypeScript": "#3178C6",
+    "HTML": "#E44D26",
+    "CSS": "#264DE4",
+    "Java": "#ED8B00",
+    "C++": "#00599C",
+    "C": "#283593",
+    "C#": "#512BD4",# type: ignore 
+    "Go": "#00ADD8",
+    "Rust": "#CE422B",
+    "PHP": "#777BB4",
+    "Ruby": "#CC342D",
+    "Swift": "#FA7343",
+    "Kotlin": "#7F52FF",
+    "Dart": "#0175C2",
+    "Shell": "#4EAA25",
+    "Vue": "#41B883",
+    "Lua": "#08097F",
 }
+
+
 DEFAULT_COLORS = ["#2f80ed", "#ffb600", "#d92c2c", "#a040a0", "#38bdae"]
 
 if not TOKEN:
-    print("❌ Error: GH_TOKEN is missing. Check your .env file.")
+    print("Error: GH_TOKEN is missing. Check your .env file.")
     sys.exit(1)
 
 headers = {"Authorization": f"token {TOKEN}"}
+
 
 def fetch_url(url, session):
     try:
@@ -33,18 +49,23 @@ def fetch_url(url, session):
     except:  # noqa: E722
         return {}
 
+
 try:
     with requests.Session() as session:
-        repos_url = f"https://api.github.com/users/{USERNAME}/repos?per_page=100&type=all"
+        repos_url = (
+            f"https://api.github.com/users/{USERNAME}/repos?per_page=100&type=all"
+        )
         resp = session.get(repos_url, headers=headers)
         resp.raise_for_status()
         repos = resp.json()
 
         languages = {}
         total_bytes = 0
-        
-        lang_urls = [repo['languages_url'] for repo in repos if not repo.get('fork', False)]
-        
+
+        lang_urls = [
+            repo["languages_url"] for repo in repos if not repo.get("fork", False)
+        ]
+
         with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
             results = list(executor.map(lambda u: fetch_url(u, session), lang_urls))
 
@@ -56,21 +77,23 @@ try:
     if total_bytes == 0:
         sys.exit(0)
 
-    sorted_langs = sorted(languages.items(), key=lambda item: item[1], reverse=True)[:LANG_COUNT]
-    
+    sorted_langs = sorted(languages.items(), key=lambda item: item[1], reverse=True)[
+        :LANG_COUNT
+    ]
+
     count = len(sorted_langs)
     midpoint = (count + 1) // 2
-    
+
     start_y = 65
     row_height = 26
     padding_bottom = 15
-    
+
     height = start_y + (midpoint * row_height) + padding_bottom
     width = 400
     center_x = width / 2
-    
+
     date_str = datetime.now(timezone.utc).strftime("%d-%m-%y")
-    
+
     svg_content = f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
       <style>
         .base {{ font-family: 'GeistMono Nerd Font', 'Geist Mono', 'Fira Code', monospace; }}
@@ -88,11 +111,11 @@ try:
     col_1_num = 185
     col_2_x = 215
     col_2_num = 375
-    
+
     for i, (lang, bytes_count) in enumerate(sorted_langs):
         percent = (bytes_count / total_bytes) * 100
         color = LANG_COLORS.get(lang, DEFAULT_COLORS[i % len(DEFAULT_COLORS)])
-        
+
         if i < midpoint:
             col_x = col_1_x
             num_x = col_1_num
@@ -101,10 +124,10 @@ try:
             col_x = col_2_x
             num_x = col_2_num
             row = i - midpoint
-            
+
         y_pos = start_y + (row * row_height)
         display_name = lang if len(lang) < 18 else lang[:16] + ".."
-        
+
         svg_content += f"""
       <g transform="translate(0, {y_pos})">
         <circle cx="{col_x + 5}" cy="6" r="5" fill="{color}"/>
@@ -117,8 +140,8 @@ try:
 
     with open("languages.svg", "w", encoding="utf-8") as f:
         f.write(svg_content)
-    
-    print("✅ Stats generated! (Using .env)")
+
+    print("Stats generated! (Using .env)")
 
 except Exception as e:
     print(e)
