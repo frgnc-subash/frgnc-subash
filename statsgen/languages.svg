@@ -8,7 +8,7 @@
       </style>
       <rect x="0" y="0" width="400" height="184" fill="#000000" rx="0"/>
       <text x="200.0" y="32" text-anchor="middle" dominant-baseline="middle" class="base header">Most Used Languages</text>
-      <text x="375" y="32" text-anchor="end" dominant-baseline="middle" class="base last-updated">31-12-25</text>
+      <text x="375" y="32" text-anchor="end" dominant-baseline="middle" class="base last-updated">01-01-26</text>
     
       <g transform="translate(0, 65)">
         <circle cx="30" cy="6" r="5" fill="#E44D26"/>
@@ -37,7 +37,7 @@
       <g transform="translate(0, 65)">
         <circle cx="220" cy="6" r="5" fill="#4EAA25"/>
         <text x="233" y="10" class="base lang-name">Shell</text>
-        <text x="375" y="10" class="base lang-percent" text-anchor="end">6.2%</text>
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">6.1%</text>
       </g>
         
       <g transform="translate(0, 91)">
