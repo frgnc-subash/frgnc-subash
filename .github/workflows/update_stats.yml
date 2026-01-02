@@ -2,7 +2,7 @@ name: Update Language Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -35,14 +35,15 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
+
           # 1. Add the file from inside the statsgen folder
           git add statsgen/languages.svg
-          
+
           # 2. Commit only if changed
           if git diff --staged --quiet; then
-            echo "No changes to commit."
+            echo "no changes to commit."
           else
-            git commit -m "Update language stats [skip ci]"
+            git commit -m "auto | update language stats [skip ci]"
             git push
           fi
+
