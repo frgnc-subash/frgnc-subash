@@ -8,7 +8,7 @@
       </style>
       <rect x="0" y="0" width="400" height="184" fill="#000000" rx="0"/>
       <text x="200.0" y="32" text-anchor="middle" dominant-baseline="middle" class="base header">Most Used Languages</text>
-      <text x="375" y="32" text-anchor="end" dominant-baseline="middle" class="base last-updated">04-01-26</text>
+      <text x="375" y="32" text-anchor="end" dominant-baseline="middle" class="base last-updated">05-01-26</text>
     
       <g transform="translate(0, 65)">
         <circle cx="30" cy="6" r="5" fill="#E44D26"/>
