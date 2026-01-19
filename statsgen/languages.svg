@@ -7,7 +7,21 @@
         .lang-percent { font-weight: 400; font-size: 13px; fill: #9ca3af; } 
       </style>
       <rect x="0" y="0" width="400" height="184" fill="#000000" rx="0"/>
+      
+      <!-- Icon (Aligned with Left Column Circles) -->
+      <!-- Center of Icon is at x=30, y=32 -->
+      <g transform="translate(30, 32)">
+         <!-- Left Bracket -->
+         <path d="M -3 -4 L -7 0 L -3 4" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+         <!-- Right Bracket -->
+         <path d="M 3 -4 L 7 0 L 3 4" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+         <!-- Slash (Optional, uncomment to add: <path d="M 2 -5 L -2 5" stroke="#777777" stroke-width="2"/> ) -->
+      </g>
+
+      <!-- Title (Centered) -->
       <text x="200.0" y="32" text-anchor="middle" dominant-baseline="middle" class="base header">Most Used Languages</text>
+      
+      <!-- Date (Right Side, Aligned with Right Column numbers) -->
       <text x="375" y="32" text-anchor="end" dominant-baseline="middle" class="base last-updated">19-01-26</text>
     
       <g transform="translate(0, 65)">
@@ -16,40 +30,40 @@
         <text x="185" y="10" class="base lang-percent" text-anchor="end">28.2%</text>
       </g>
         
-      <g transform="translate(0, 91)">
-        <circle cx="30" cy="6" r="5" fill="#264DE4"/>
-        <text x="43" y="10" class="base lang-name">CSS</text>
-        <text x="185" y="10" class="base lang-percent" text-anchor="end">21.9%</text>
+      <g transform="translate(0, 65)">
+        <circle cx="220" cy="6" r="5" fill="#264DE4"/>
+        <text x="233" y="10" class="base lang-name">CSS</text>
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">21.9%</text>
       </g>
         
-      <g transform="translate(0, 117)">
+      <g transform="translate(0, 91)">
         <circle cx="30" cy="6" r="5" fill="#3178C6"/>
         <text x="43" y="10" class="base lang-name">TypeScript</text>
         <text x="185" y="10" class="base lang-percent" text-anchor="end">18.9%</text>
       </g>
         
-      <g transform="translate(0, 143)">
-        <circle cx="30" cy="6" r="5" fill="#4EAA25"/>
-        <text x="43" y="10" class="base lang-name">Shell</text>
-        <text x="185" y="10" class="base lang-percent" text-anchor="end">11.8%</text>
-      </g>
-        
-      <g transform="translate(0, 65)">
-        <circle cx="220" cy="6" r="5" fill="#F7DF1E"/>
-        <text x="233" y="10" class="base lang-name">JavaScript</text>
-        <text x="375" y="10" class="base lang-percent" text-anchor="end">9.6%</text>
-      </g>
-        
       <g transform="translate(0, 91)">
+        <circle cx="220" cy="6" r="5" fill="#4EAA25"/>
+        <text x="233" y="10" class="base lang-name">Shell</text>
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">11.8%</text>
+      </g>
+        
+      <g transform="translate(0, 117)">
+        <circle cx="30" cy="6" r="5" fill="#F7DF1E"/>
+        <text x="43" y="10" class="base lang-name">JavaScript</text>
+        <text x="185" y="10" class="base lang-percent" text-anchor="end">9.6%</text>
+      </g>
+        
+      <g transform="translate(0, 117)">
         <circle cx="220" cy="6" r="5" fill="#2f80ed"/>
         <text x="233" y="10" class="base lang-name">GLSL</text>
         <text x="375" y="10" class="base lang-percent" text-anchor="end">5.5%</text>
       </g>
         
-      <g transform="translate(0, 117)">
-        <circle cx="220" cy="6" r="5" fill="#3776AB"/>
-        <text x="233" y="10" class="base lang-name">Python</text>
-        <text x="375" y="10" class="base lang-percent" text-anchor="end">2.3%</text>
+      <g transform="translate(0, 143)">
+        <circle cx="30" cy="6" r="5" fill="#3776AB"/>
+        <text x="43" y="10" class="base lang-name">Python</text>
+        <text x="185" y="10" class="base lang-percent" text-anchor="end">2.3%</text>
       </g>
         
       <g transform="translate(0, 143)">

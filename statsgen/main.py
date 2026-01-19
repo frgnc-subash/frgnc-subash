@@ -1,10 +1,9 @@
-import requests  
+import requests
 import os
 import sys
 from datetime import datetime, timezone
 import concurrent.futures
-from dotenv import load_dotenv  
-
+from dotenv import load_dotenv
 
 load_dotenv()
 USERNAME = "frgnc-subash"
@@ -20,7 +19,7 @@ LANG_COLORS = {
     "Java": "#ED8B00",
     "C++": "#00599C",
     "C": "#283593",
-    "C#": "#512BD4",# type: ignore 
+    "C#": "#512BD4",  # type: ignore
     "Go": "#00ADD8",
     "Rust": "#CE422B",
     "PHP": "#777BB4",
@@ -32,7 +31,6 @@ LANG_COLORS = {
     "Vue": "#41B883",
     "Lua": "#08097F",
 }
-
 
 DEFAULT_COLORS = ["#2f80ed", "#ffb600", "#d92c2c", "#a040a0", "#38bdae"]
 
@@ -82,13 +80,13 @@ try:
     ]
 
     count = len(sorted_langs)
-    midpoint = (count + 1) // 2
+    rows_count = (count + 1) // 2
 
     start_y = 65
     row_height = 26
     padding_bottom = 15
 
-    height = start_y + (midpoint * row_height) + padding_bottom
+    height = start_y + (rows_count * row_height) + padding_bottom
     width = 400
     center_x = width / 2
 
@@ -103,7 +101,21 @@ try:
         .lang-percent {{ font-weight: 400; font-size: 13px; fill: #9ca3af; }} 
       </style>
       <rect x="0" y="0" width="{width}" height="{height}" fill="#000000" rx="0"/>
+      
+      <!-- Icon (Aligned with Left Column Circles) -->
+      <!-- Center of Icon is at x=30, y=32 -->
+      <g transform="translate(30, 32)">
+         <!-- Left Bracket -->
+         <path d="M -3 -4 L -7 0 L -3 4" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+         <!-- Right Bracket -->
+         <path d="M 3 -4 L 7 0 L 3 4" fill="none" stroke="#777777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+         <!-- Slash (Optional, uncomment to add: <path d="M 2 -5 L -2 5" stroke="#777777" stroke-width="2"/> ) -->
+      </g>
+
+      <!-- Title (Centered) -->
       <text x="{center_x}" y="32" text-anchor="middle" dominant-baseline="middle" class="base header">Most Used Languages</text>
+      
+      <!-- Date (Right Side, Aligned with Right Column numbers) -->
       <text x="375" y="32" text-anchor="end" dominant-baseline="middle" class="base last-updated">{date_str}</text>
     """
 
@@ -116,15 +128,15 @@ try:
         percent = (bytes_count / total_bytes) * 100
         color = LANG_COLORS.get(lang, DEFAULT_COLORS[i % len(DEFAULT_COLORS)])
 
-        if i < midpoint:
+        # Zig-Zag Layout
+        if i % 2 == 0:
             col_x = col_1_x
             num_x = col_1_num
-            row = i
         else:
             col_x = col_2_x
             num_x = col_2_num
-            row = i - midpoint
 
+        row = i // 2
         y_pos = start_y + (row * row_height)
         display_name = lang if len(lang) < 18 else lang[:16] + ".."
 
@@ -141,7 +153,7 @@ try:
     with open("languages.svg", "w", encoding="utf-8") as f:
         f.write(svg_content)
 
-    print("Stats generated! (Using .env)")
+    print("Stats generated! (Perfectly Aligned)")
 
 except Exception as e:
     print(e)
