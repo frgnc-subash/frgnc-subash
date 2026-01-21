@@ -27,13 +27,13 @@
       <g transform="translate(0, 65)">
         <circle cx="220" cy="6" r="5" fill="#264DE4"/>
         <text x="233" y="10" class="base lang-name">CSS</text>
-        <text x="375" y="10" class="base lang-percent" text-anchor="end">22.5%</text>
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">22.3%</text>
       </g>
         
       <g transform="translate(0, 91)">
         <circle cx="30" cy="6" r="5" fill="#3178C6"/>
         <text x="43" y="10" class="base lang-name">TypeScript</text>
-        <text x="185" y="10" class="base lang-percent" text-anchor="end">18.7%</text>
+        <text x="185" y="10" class="base lang-percent" text-anchor="end">18.8%</text>
       </g>
         
       <g transform="translate(0, 91)">
@@ -66,6 +66,6 @@
         <text x="375" y="10" class="base lang-percent" text-anchor="end">1.8%</text>
       </g>
         
-      <text x="375" y="192" text-anchor="end" class="base last-updated">last updated: Jan 20, 2026</text>
+      <text x="375" y="192" text-anchor="end" class="base last-updated">last updated: Jan 21, 2026</text>
     </svg>
     
