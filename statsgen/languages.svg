@@ -21,13 +21,13 @@
       <g transform="translate(0, 65)">
         <circle cx="30" cy="6" r="5" fill="#E44D26"/>
         <text x="43" y="10" class="base lang-name">HTML</text>
-        <text x="185" y="10" class="base lang-percent" text-anchor="end">27.9%</text>
+        <text x="185" y="10" class="base lang-percent" text-anchor="end">27.7%</text>
       </g>
         
       <g transform="translate(0, 65)">
         <circle cx="220" cy="6" r="5" fill="#264DE4"/>
         <text x="233" y="10" class="base lang-name">CSS</text>
-        <text x="375" y="10" class="base lang-percent" text-anchor="end">22.2%</text>
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">22.1%</text>
       </g>
         
       <g transform="translate(0, 91)">
@@ -39,13 +39,13 @@
       <g transform="translate(0, 91)">
         <circle cx="220" cy="6" r="5" fill="#4EAA25"/>
         <text x="233" y="10" class="base lang-name">Shell</text>
-        <text x="375" y="10" class="base lang-percent" text-anchor="end">13.0%</text>
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">12.9%</text>
       </g>
         
       <g transform="translate(0, 117)">
         <circle cx="30" cy="6" r="5" fill="#F7DF1E"/>
         <text x="43" y="10" class="base lang-name">JavaScript</text>
-        <text x="185" y="10" class="base lang-percent" text-anchor="end">9.5%</text>
+        <text x="185" y="10" class="base lang-percent" text-anchor="end">9.8%</text>
       </g>
         
       <g transform="translate(0, 117)">
@@ -66,6 +66,6 @@
         <text x="375" y="10" class="base lang-percent" text-anchor="end">1.8%</text>
       </g>
         
-      <text x="375" y="192" text-anchor="end" class="base last-updated">last updated: Jan 23, 2026</text>
+      <text x="375" y="192" text-anchor="end" class="base last-updated">last updated: Jan 24, 2026</text>
     </svg>
     
