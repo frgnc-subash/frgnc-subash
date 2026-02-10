@@ -1,7 +1,6 @@
 <svg width="400" height="204" viewBox="0 0 400 204" xmlns="http://www.w3.org/2000/svg">
       <style>
         .base { font-family: 'DepartureMonoNerdFontMono', 'Geist Mono', 'Fira Code', monospace; }
-        
         .header { 
             font-weight: 600; 
             font-size: 16px; 
@@ -9,14 +8,14 @@
             letter-spacing: 2.5px; 
             text-transform: uppercase;
         }
-        
-        .last-updated { font-weight: 400; font-size: 9px; fill: #555555; }
+        .footer-text { font-weight: 400; font-size: 10px; fill: #555555; }
+        .streak { font-weight: 600; font-size: 10px; fill: #41B883; }
         .lang-name { font-weight: 400; font-size: 13px; fill: #ffffff; }
         .lang-percent { font-weight: 400; font-size: 13px; fill: #9ca3af; } 
       </style>
       <rect x="0" y="0" width="400" height="204" fill="#000000" rx="0"/>
       
-      <text x="200.0" y="32" text-anchor="middle" dominant-baseline="middle" class="base header">-═Language Stats═-</text>
+      <text x="200.0" y="32" text-anchor="middle" dominant-baseline="middle" class="base header">Language Stats</text>
     
       <g transform="translate(0, 65)">
         <circle cx="30" cy="6" r="5" fill="#E44D26"/>
@@ -63,9 +62,17 @@
       <g transform="translate(0, 143)">
         <circle cx="220" cy="6" r="5" fill="#08097F"/>
         <text x="233" y="10" class="base lang-name">Lua</text>
+<<<<<<< Updated upstream
         <text x="375" y="10" class="base lang-percent" text-anchor="end">1.8%</text>
       </g>
         
       <text x="375" y="192" text-anchor="end" class="base last-updated">last updated: Feb 09, 2026</text>
+=======
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">1.7%</text>
+      </g>
+        
+      <text x="25" y="192" text-anchor="start" class="base footer-text">streak: <tspan class="streak">18 days</tspan></text>
+      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Feb 10, 2026</text>
+>>>>>>> Stashed changes
     </svg>
     

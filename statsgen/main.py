@@ -1,7 +1,7 @@
 import requests
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import concurrent.futures
 from dotenv import load_dotenv
 
@@ -21,7 +21,6 @@ LANG_COLORS = {
 DEFAULT_COLORS = ["#2f80ed", "#ffb600", "#d92c2c", "#a040a0", "#38bdae"]
 
 if not TOKEN:
-    print("Error: GH_TOKEN is missing. Check your .env file.")
     sys.exit(1)
 
 headers = {"Authorization": f"token {TOKEN}"}
@@ -31,6 +30,66 @@ def fetch_url(url, session):
         return session.get(url, headers=headers).json()
     except:
         return {}
+
+def get_streak(session):
+    query = """
+    query($userName:String!) {
+      user(login: $userName) {
+        contributionsCollection {
+          contributionCalendar {
+            weeks {
+              contributionDays {
+                contributionCount
+                date
+              }
+            }
+          }
+        }
+      }
+    }
+    """
+    try:
+        resp = session.post(
+            "https://api.github.com/graphql",
+            json={"query": query, "variables": {"userName": USERNAME}},
+            headers=headers
+        )
+        if resp.status_code != 200:
+            return 0
+        
+        data = resp.json()
+        weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+        days = [day for week in weeks for day in week["contributionDays"]]
+        
+        days.sort(key=lambda x: x["date"], reverse=True)
+        
+        streak = 0
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        yesterday = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
+        
+        has_started = False
+        
+        for day in days:
+            date = day["date"]
+            count = day["contributionCount"]
+            
+            if not has_started:
+                if date == today and count > 0:
+                    streak += 1
+                    has_started = True
+                elif date == yesterday and count > 0:
+                    streak += 1
+                    has_started = True
+                elif date < yesterday:
+                    break
+            else:
+                if count > 0:
+                    streak += 1
+                else:
+                    break
+        return streak
+    except:
+        return 0
 
 try:
     with requests.Session() as session:
@@ -50,6 +109,8 @@ try:
             for lang, bytes_count in repo_langs.items():
                 languages[lang] = languages.get(lang, 0) + bytes_count
                 total_bytes += bytes_count
+
+        current_streak = get_streak(session)
 
     if total_bytes == 0: sys.exit(0)
 
@@ -71,7 +132,6 @@ try:
     svg_content = f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
       <style>
         .base {{ font-family: 'DepartureMonoNerdFontMono', 'Geist Mono', 'Fira Code', monospace; }}
-        
         .header {{ 
             font-weight: 600; 
             font-size: 16px; 
@@ -79,14 +139,14 @@ try:
             letter-spacing: 2.5px; 
             text-transform: uppercase;
         }}
-        
-        .last-updated {{ font-weight: 400; font-size: 9px; fill: #555555; }}
+        .footer-text {{ font-weight: 400; font-size: 10px; fill: #555555; }}
+        .streak {{ font-weight: 600; font-size: 10px; fill: #41B883; }}
         .lang-name {{ font-weight: 400; font-size: 13px; fill: #ffffff; }}
         .lang-percent {{ font-weight: 400; font-size: 13px; fill: #9ca3af; }} 
       </style>
       <rect x="0" y="0" width="{width}" height="{height}" fill="#000000" rx="0"/>
       
-      <text x="{center_x}" y="32" text-anchor="middle" dominant-baseline="middle" class="base header">-═Language Stats═-</text>
+      <text x="{center_x}" y="32" text-anchor="middle" dominant-baseline="middle" class="base header">Language Stats</text>
     """
 
     col_1_x = 25; col_1_num = 185
@@ -112,7 +172,8 @@ try:
         """
 
     svg_content += f"""
-      <text x="375" y="{height - 12}" text-anchor="end" class="base last-updated">last updated: {date_str}</text>
+      <text x="25" y="{height - 12}" text-anchor="start" class="base footer-text">streak: <tspan class="streak">{current_streak} days</tspan></text>
+      <text x="375" y="{height - 12}" text-anchor="end" class="base footer-text">last updated: {date_str}</text>
     </svg>
     """
 

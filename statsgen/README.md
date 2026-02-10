@@ -1,2 +1,2 @@
-displays github repos language stats.`
+displays github repos language stats with my streaks.
 
