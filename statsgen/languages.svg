@@ -26,7 +26,7 @@
       <g transform="translate(0, 65)">
         <circle cx="220" cy="6" r="5" fill="#3178C6"/>
         <text x="233" y="10" class="base lang-name">TypeScript</text>
-        <text x="375" y="10" class="base lang-percent" text-anchor="end">22.1%</text>
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">22.0%</text>
       </g>
         
       <g transform="translate(0, 91)">
@@ -44,7 +44,7 @@
       <g transform="translate(0, 117)">
         <circle cx="30" cy="6" r="5" fill="#F7DF1E"/>
         <text x="43" y="10" class="base lang-name">JavaScript</text>
-        <text x="185" y="10" class="base lang-percent" text-anchor="end">10.3%</text>
+        <text x="185" y="10" class="base lang-percent" text-anchor="end">10.5%</text>
       </g>
         
       <g transform="translate(0, 117)">
@@ -65,7 +65,7 @@
         <text x="375" y="10" class="base lang-percent" text-anchor="end">1.7%</text>
       </g>
         
-      <text x="25" y="192" text-anchor="start" class="base footer-text">streak: <tspan class="streak">19 days</tspan></text>
-      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Feb 11, 2026</text>
+      <text x="25" y="192" text-anchor="start" class="base footer-text">streak: <tspan class="streak">20 days</tspan></text>
+      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Feb 12, 2026</text>
     </svg>
     
