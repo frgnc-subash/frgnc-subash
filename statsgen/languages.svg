@@ -65,7 +65,7 @@
         <text x="375" y="10" class="base lang-percent" text-anchor="end">1.7%</text>
       </g>
         
-      <text x="25" y="192" text-anchor="start" class="base footer-text">streak: <tspan class="streak">20 days</tspan></text>
-      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Feb 12, 2026</text>
+      <text x="25" y="192" text-anchor="start" class="base footer-text">streak: <tspan class="streak">21 days</tspan></text>
+      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Feb 13, 2026</text>
     </svg>
     
