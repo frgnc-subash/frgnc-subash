@@ -38,13 +38,13 @@
       <g transform="translate(0, 91)">
         <circle cx="220" cy="6" r="5" fill="#4EAA25"/>
         <text x="233" y="10" class="base lang-name">Shell</text>
-        <text x="375" y="10" class="base lang-percent" text-anchor="end">11.3%</text>
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">11.5%</text>
       </g>
         
       <g transform="translate(0, 117)">
         <circle cx="30" cy="6" r="5" fill="#F7DF1E"/>
         <text x="43" y="10" class="base lang-name">JavaScript</text>
-        <text x="185" y="10" class="base lang-percent" text-anchor="end">9.2%</text>
+        <text x="185" y="10" class="base lang-percent" text-anchor="end">9.1%</text>
       </g>
         
       <g transform="translate(0, 117)">
@@ -65,7 +65,7 @@
         <text x="375" y="10" class="base lang-percent" text-anchor="end">2.2%</text>
       </g>
         
-      <text x="25" y="192" text-anchor="start" class="base footer-text">streak: <tspan class="streak">0 days</tspan></text>
-      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Mar 29, 2026</text>
+      <text x="25" y="192" text-anchor="start" class="base footer-text">streak: <tspan class="streak">1 days</tspan></text>
+      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Mar 30, 2026</text>
     </svg>
     
