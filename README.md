@@ -12,12 +12,12 @@
   <b>An Undergrad | UI/UX Designer | Linux Enthusiast</b>
 </p>
     
-<p align="center" style="display: flex; align-items: center; justify-content: center; gap: 8px;">
-  <sub><sup><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="24" height="24"/></sup></sub>
-  <a href="https://subashlamatamang.com.np/" target="_blank" style="text-decoration:none">
-    <img src="https://img.shields.io/badge/portfolio-000000?style=for-the-badge&logoColor=D9E0EE" alt="portfolio">
-  </a>
-  <sub><sup><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="24" height="24"/></sup></sub>
+<p align="center">
+  <table align="center"><tr>
+    <td><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="24" height="24"/></td>
+    <td><a href="https://subashlamatamang.com.np/" target="_blank" style="text-decoration:none"><img src="https://img.shields.io/badge/portfolio-000000?style=for-the-badge&logoColor=D9E0EE" alt="portfolio"></a></td>
+    <td><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Activity/Sparkles.webp" alt="Sparkles" width="24" height="24"/></td>
+  </tr></table>
 </p>
 
 <p align="center">
