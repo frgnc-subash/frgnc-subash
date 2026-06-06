@@ -41,6 +41,6 @@
   </a>
 </p>
 
-<!-- <p align="center">
+ <p align="center">
   <img src="https://raw.githubusercontent.com/frgnc-subash/frgnc-subash/output/snake.svg" alt="Snake animation"/>
-</p> -->
+</p>
