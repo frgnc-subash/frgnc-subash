@@ -40,7 +40,3 @@
     <img src="https://img.shields.io/badge/Discord-000000?style=for-the-badge&logoColor=000000" height="24" alt="Discord"/>
   </a>
 </p>
-
- <p align="center">
-  <img src="https://raw.githubusercontent.com/frgnc-subash/frgnc-subash/output/snake.svg" alt="Snake animation"/>
-</p>
