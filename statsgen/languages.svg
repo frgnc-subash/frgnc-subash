@@ -20,13 +20,13 @@
       <g transform="translate(0, 65)">
         <circle cx="30" cy="6" r="5" fill="#3178C6"/>
         <text x="43" y="10" class="base lang-name">TypeScript</text>
-        <text x="185" y="10" class="base lang-percent" text-anchor="end">46.1%</text>
+        <text x="185" y="10" class="base lang-percent" text-anchor="end">46.0%</text>
       </g>
         
       <g transform="translate(0, 65)">
         <circle cx="220" cy="6" r="5" fill="#F7DF1E"/>
         <text x="233" y="10" class="base lang-name">JavaScript</text>
-        <text x="375" y="10" class="base lang-percent" text-anchor="end">19.3%</text>
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">19.6%</text>
       </g>
         
       <g transform="translate(0, 91)">
@@ -38,7 +38,7 @@
       <g transform="translate(0, 91)">
         <circle cx="220" cy="6" r="5" fill="#264DE4"/>
         <text x="233" y="10" class="base lang-name">CSS</text>
-        <text x="375" y="10" class="base lang-percent" text-anchor="end">8.3%</text>
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">8.2%</text>
       </g>
         
       <g transform="translate(0, 117)">
@@ -50,7 +50,7 @@
       <g transform="translate(0, 117)">
         <circle cx="220" cy="6" r="5" fill="#4EAA25"/>
         <text x="233" y="10" class="base lang-name">Shell</text>
-        <text x="375" y="10" class="base lang-percent" text-anchor="end">3.8%</text>
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">3.7%</text>
       </g>
         
       <g transform="translate(0, 143)">
@@ -65,7 +65,7 @@
         <text x="375" y="10" class="base lang-percent" text-anchor="end">1.6%</text>
       </g>
         
-      <text x="25" y="192" text-anchor="start" class="base footer-text">streak: <tspan class="streak">2 days</tspan></text>
-      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Aug 11, 2026</text>
+      <text x="25" y="192" text-anchor="start" class="base footer-text">streak: <tspan class="streak">4 days</tspan></text>
+      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Aug 12, 2026</text>
     </svg>
     
