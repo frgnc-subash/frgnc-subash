@@ -26,7 +26,7 @@
       <g transform="translate(0, 65)">
         <circle cx="220" cy="6" r="5" fill="#F7DF1E"/>
         <text x="233" y="10" class="base lang-name">JavaScript</text>
-        <text x="375" y="10" class="base lang-percent" text-anchor="end">18.6%</text>
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">18.5%</text>
       </g>
         
       <g transform="translate(0, 91)">
@@ -65,7 +65,7 @@
         <text x="375" y="10" class="base lang-percent" text-anchor="end">2.6%</text>
       </g>
         
-      <text x="25" y="192" text-anchor="start" class="base footer-text">streak: <tspan class="streak">5 days</tspan></text>
-      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Aug 14, 2026</text>
+      <text x="25" y="192" text-anchor="start" class="base footer-text">streak: <tspan class="streak">6 days</tspan></text>
+      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Aug 15, 2026</text>
     </svg>
     
