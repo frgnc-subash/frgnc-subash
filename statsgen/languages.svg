@@ -20,37 +20,37 @@
       <g transform="translate(0, 65)">
         <circle cx="30" cy="6" r="5" fill="#3178C6"/>
         <text x="43" y="10" class="base lang-name">TypeScript</text>
-        <text x="185" y="10" class="base lang-percent" text-anchor="end">36.5%</text>
+        <text x="185" y="10" class="base lang-percent" text-anchor="end">36.1%</text>
       </g>
         
       <g transform="translate(0, 65)">
         <circle cx="220" cy="6" r="5" fill="#F7DF1E"/>
         <text x="233" y="10" class="base lang-name">JavaScript</text>
-        <text x="375" y="10" class="base lang-percent" text-anchor="end">15.4%</text>
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">15.2%</text>
       </g>
         
       <g transform="translate(0, 91)">
         <circle cx="30" cy="6" r="5" fill="#d92c2c"/>
         <text x="43" y="10" class="base lang-name">QML</text>
-        <text x="185" y="10" class="base lang-percent" text-anchor="end">10.0%</text>
+        <text x="185" y="10" class="base lang-percent" text-anchor="end">11.0%</text>
       </g>
         
       <g transform="translate(0, 91)">
         <circle cx="220" cy="6" r="5" fill="#264DE4"/>
         <text x="233" y="10" class="base lang-name">CSS</text>
-        <text x="375" y="10" class="base lang-percent" text-anchor="end">7.1%</text>
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">7.0%</text>
       </g>
         
       <g transform="translate(0, 117)">
         <circle cx="30" cy="6" r="5" fill="#E44D26"/>
         <text x="43" y="10" class="base lang-name">HTML</text>
-        <text x="185" y="10" class="base lang-percent" text-anchor="end">6.8%</text>
+        <text x="185" y="10" class="base lang-percent" text-anchor="end">6.7%</text>
       </g>
         
       <g transform="translate(0, 117)">
         <circle cx="220" cy="6" r="5" fill="#ED8B00"/>
         <text x="233" y="10" class="base lang-name">Java</text>
-        <text x="375" y="10" class="base lang-percent" text-anchor="end">5.0%</text>
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">4.9%</text>
       </g>
         
       <g transform="translate(0, 143)">
@@ -66,6 +66,6 @@
       </g>
         
       <text x="25" y="192" text-anchor="start" class="base footer-text">streak: <tspan class="streak">23 days</tspan></text>
-      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Aug 31, 2026</text>
+      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Sep 01, 2026</text>
     </svg>
     
