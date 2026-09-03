@@ -20,7 +20,7 @@
       <g transform="translate(0, 65)">
         <circle cx="30" cy="6" r="5" fill="#3178C6"/>
         <text x="43" y="10" class="base lang-name">TypeScript</text>
-        <text x="185" y="10" class="base lang-percent" text-anchor="end">35.7%</text>
+        <text x="185" y="10" class="base lang-percent" text-anchor="end">35.6%</text>
       </g>
         
       <g transform="translate(0, 65)">
@@ -32,7 +32,7 @@
       <g transform="translate(0, 91)">
         <circle cx="30" cy="6" r="5" fill="#d92c2c"/>
         <text x="43" y="10" class="base lang-name">QML</text>
-        <text x="185" y="10" class="base lang-percent" text-anchor="end">11.3%</text>
+        <text x="185" y="10" class="base lang-percent" text-anchor="end">11.5%</text>
       </g>
         
       <g transform="translate(0, 91)">
@@ -65,7 +65,7 @@
         <text x="375" y="10" class="base lang-percent" text-anchor="end">3.0%</text>
       </g>
         
-      <text x="25" y="192" text-anchor="start" class="base footer-text">streak: <tspan class="streak">25 days</tspan></text>
-      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Sep 02, 2026</text>
+      <text x="25" y="192" text-anchor="start" class="base footer-text">streak: <tspan class="streak">26 days</tspan></text>
+      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Sep 03, 2026</text>
     </svg>
     
