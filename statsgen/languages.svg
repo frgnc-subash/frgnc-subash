@@ -62,10 +62,10 @@
       <g transform="translate(0, 143)">
         <circle cx="220" cy="6" r="5" fill="#08097F"/>
         <text x="233" y="10" class="base lang-name">Lua</text>
-        <text x="375" y="10" class="base lang-percent" text-anchor="end">3.1%</text>
+        <text x="375" y="10" class="base lang-percent" text-anchor="end">3.0%</text>
       </g>
         
-      <text x="25" y="192" text-anchor="start" class="base footer-text">streak: <tspan class="streak">31 days</tspan></text>
-      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Sep 08, 2026</text>
+      <text x="25" y="192" text-anchor="start" class="base footer-text">streak: <tspan class="streak">32 days</tspan></text>
+      <text x="375" y="192" text-anchor="end" class="base footer-text">last updated: Sep 09, 2026</text>
     </svg>
     
