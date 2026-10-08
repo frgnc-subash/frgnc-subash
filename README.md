@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <code>-=< 𝓯𝓻𝓰𝓷𝓬-𝓼𝓾𝓫𝓪𝓼𝓱 >=-</code>
+  <code>-=< 𝓪𝔁𝓸𝓼𝓲𝓼00𝔁 >=-</code>
   <br> <br>
   <b>An Undergrad | UI/UX Designer | Linux Enthusiast</b>
 </p>
